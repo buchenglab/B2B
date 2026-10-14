@@ -72,7 +72,7 @@ The raw wide-field fluorescence data are from the [DeepWonder repository](https:
 
 | Raw wide-field fluorescence | B2B background-removal result |
 |---|---|
-| ![Raw wide-field fluorescence data](Assets/wd_img_crop-2.gif) | ![B2B result for calcium imaging](Assets/Video_Result of Result of sub_my_model_20260415_DeepWonder_0811_20_0_4unet_wd_img_crop-1-1.gif) |
+| ![Raw wide-field fluorescence data](assets/wd_img_crop-2.gif) | ![B2B result for calcium imaging](assets/Video_Result%20of%20Result%20of%20sub_my_model_20260415_DeepWonder_0811_20_0_4unet_wd_img_crop-1-1.gif) |
 
 ## Citation
 
