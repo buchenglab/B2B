@@ -60,18 +60,22 @@ The training and prediction scripts must use the same model name. Prediction exp
 
 The figures below are representative examples exported from the supplied B2B figure deck. The microscopy datasets themselves are not included in this repository.
 
-### Framework and validation
-
-![B2B framework and representative validation results](assets/B2B_framework_validation.png)
-
 ### Example applications
 
-![B2B example applications in hyperspectral SRS, MIP, and fluorescence imaging](assets/B2B_application_examples.png)
+#### SRS and MIP imaging
+
+![B2B results for SRS and MIP imaging](assets/CIApplication_1.png)
+
+#### Calcium imaging
+
+The raw wide-field fluorescence data are from the [DeepWonder repository](https://github.com/yuanlong-o/Deep_widefield_cal_inferece).
+
+![Raw wide-field fluorescence data for calcium imaging](assets/wd_img_crop-2.gif)
+
+![B2B background-removal results for calcium imaging](assets/Video_Result%20of%20Result%20of%20sub_my_model_20260415_DeepWonder_0811_20_0_4unet_wd_img_crop-1-1.gif)
 
 ## Citation
 
 Please cite the associated B2B manuscript when its public citation details are available. Add the final citation, DOI, or preprint link here.
 
-## License
 
-The author's intended use is academic, non-commercial research. A formal license file was not included with the supplied materials, and this README is not a substitute for one. Contact the author for permission before reuse or redistribution. Commercial use requires prior written permission from the copyright holder.
