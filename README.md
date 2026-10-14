@@ -6,6 +6,8 @@ This repository contains an implementation of Background2Background (B2B), a sel
 
 Microscopy backgrounds can obscure weak biological signals, especially when they vary across space or wavelength. B2B uses the difference in correlation scales between the signal and background to learn a background estimate without a clean background reference.
 
+![B2B framework](Assets/Workflow.PNG)
+
 ### Key Features
 
 * Local randomization creates paired input and target volumes for self-supervised training.
