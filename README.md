@@ -64,15 +64,15 @@ The figures below are representative examples exported from the supplied B2B fig
 
 #### SRS and MIP imaging
 
-![B2B results for SRS and MIP imaging](assets/CIApplication_1.png)
+![B2B results for SRS and MIP imaging](Assets/CIApplication_1.png)
 
 #### Calcium imaging
 
 The raw wide-field fluorescence data are from the [DeepWonder repository](https://github.com/yuanlong-o/Deep_widefield_cal_inferece).
 
-![Raw wide-field fluorescence data for calcium imaging](assets/wd_img_crop-2.gif)
+![Raw wide-field fluorescence data for calcium imaging](Assets/wd_img_crop-2.gif)
 
-![B2B background-removal results for calcium imaging](assets/Video_Result%20of%20Result%20of%20sub_my_model_20260415_DeepWonder_0811_20_0_4unet_wd_img_crop-1-1.gif)
+![B2B background-removal results for calcium imaging](Assets/Video_Result%20of%20Result%20of%20sub_my_model_20260415_DeepWonder_0811_20_0_4unet_wd_img_crop-1-1.gif)
 
 ## Citation
 
