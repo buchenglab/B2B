@@ -1,6 +1,6 @@
 # Background2Background (B2B)
 
-This repository contains an implementation of Background2Background (B2B), a self-supervised workflow for estimating and removing correlated backgrounds in high-dimensional microscopy. B2B uses local randomization to disrupt short-range image structure while retaining broader background variation. A 3D CARE model learns from paired original and randomized volumes; its prediction is used as the background estimate and subtracted from the input.
+This repository contains an implementation of Background2Background (B2B), a self-supervised framework for estimating and removing correlated backgrounds in high-dimensional microscopy. B2B uses local randomization to disrupt signal correlations while preserving broader background structure, transforming signals into effective “noise” for Noise2Noise-based background estimation. A 3D U-Net implemented using CARE learns to estimate the background, which is then subtracted from the input.
 
 ## Overview
 
@@ -10,7 +10,7 @@ Microscopy backgrounds can obscure weak biological signals, especially when they
 
 ### Key Features
 
-* Local randomization creates paired input and target volumes for self-supervised training.
+* Local randomization creates paired input and target volumes for [Noise2Noise](https://github.com/NVlabs/noise2noise) based self-supervised training.
 * A 3D [CARE](https://csbdeep.bioimagecomputing.com/) model based on a depth-4 U-Net estimates the background.
 * The prediction script saves the estimated background, background-subtracted image, and input-to-background ratio.
 * The supplied figure deck shows examples in fluorescence, stimulated Raman scattering (SRS), and mid-infrared photothermal (MIP) imaging.
