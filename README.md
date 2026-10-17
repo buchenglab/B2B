@@ -11,7 +11,7 @@ Microscopy backgrounds can obscure weak biological signals, especially when they
 ### Key Features
 
 * Local randomization creates paired input and target volumes for self-supervised training.
-* A 3D CARE model based on a depth-4 U-Net estimates the background.
+* A 3D [CARE](https://csbdeep.bioimagecomputing.com/) model based on a depth-4 U-Net estimates the background.
 * The prediction script saves the estimated background, background-subtracted image, and input-to-background ratio.
 * The supplied figure deck shows examples in fluorescence, stimulated Raman scattering (SRS), and mid-infrared photothermal (MIP) imaging.
 
