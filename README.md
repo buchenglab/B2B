@@ -76,6 +76,14 @@ The raw wide-field fluorescence data are from the [DeepWonder repository](https:
 
 ## Citation
 
-Please cite the associated B2B manuscript when its public citation details are available. Add the final citation, DOI, or preprint link here.
+If you use B2B in your research, please cite:
+
+Ding, G. et al. **Background2Background: a self-supervised background removal framework for high dimensional microscopy.** arXiv:2610.17615 (2026).
+
+[Read the preprint](https://arxiv.org/abs/2610.17615)
+
+## Contact
+
+For questions about B2B, please contact Guangrui Ding at [grding@bu.edu](mailto:grding@bu.edu).
 
 
